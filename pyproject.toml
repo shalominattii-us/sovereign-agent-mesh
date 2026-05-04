@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sovereign-agent-mesh"
+version = "0.1.0-alpha"
+description = "Decentralized agent swarm mesh networking for SOVEREIGN"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-asyncio"]
